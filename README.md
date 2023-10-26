@@ -1,2 +1,2 @@
 # preterm_birth
-Modeling preterm birth prediction
+Preterm birth prediction
