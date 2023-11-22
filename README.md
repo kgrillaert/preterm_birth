@@ -31,11 +31,16 @@ individual level. The Lifestyle model was trained on a dataset of 7XXX births be
 Z. Features explored include drinking, smoking, body mass index, and XYZZZ.
 
 ### References
-1
-2
-3
-4
-5
+1. World Health Organization et al. _Born too soon: decade of action on preterm birth._ World Health
+Organization, 2023.
+2. Robert L Goldenberg, Jennifer F Culhane, Jay D Iams, and Roberto Romero. Epidemiology and causes
+of preterm birth. _The Lancet_, 371(9606):75–84, 2008.
+3. [Preterm birth](https://www.cdc.gov/reproductivehealth/maternalinfanthealth/pretermbirth.htm), October 2023. Accessed: 2023-11-18.
+4. Joyce A Martin and Michelle JK Osterman. Exploring the decline in the singleton preterm birth rate
+in the united states, 2019–2020. 2021.
+5. CM Vajdic, A Kricker, M Giblin, J McKenzie, J Aitken, GG Giles, and BK Armstrong. Reaching the
+hard-to-reach: a systematic review of strategies for improving health and medical research with socially
+disadvantaged groups. 2013.
 
 # Model Details
 
