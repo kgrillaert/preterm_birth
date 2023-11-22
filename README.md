@@ -12,7 +12,9 @@
 
 # Project Description
 
-# Methods
+# Approach
+
+# Model Details
 
 # Data Access
 
