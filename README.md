@@ -23,7 +23,7 @@ dataset and non-invasive metrics, and ensuring our model’s equitable performan
 racial and ethnic groups, we aim to contribute to a healthier start for all children.
 
 We constructed two models to predict preterm birth, one with demographic features and
-one with lifestyle features. Our data source was the [National Institute of Health’s _All of Us_ Research
+one with lifestyle features. Our data source was the National Institute of Health’s [_All of Us_ Research
 Program](https://allofus.nih.gov/) controlled tier of de-identified medical data. The Demographics model was trained on a dataset
 of 13690 births between the years 2009 and 2022. Most demographic information for each individual was
 available only as summary statistics based on their zip code. Race and ethnicity were available on the
