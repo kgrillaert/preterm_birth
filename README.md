@@ -4,9 +4,9 @@
 - View our [5-minute recorded presentation]()
 
 ## Team Members:
-- [Katherine Grillaert]()
-- [Divya Joshi]()
-- [Noah Rahman]()
+- [Katherine Grillaert](https://www.linkedin.com/in/kgrillaert/)
+- [Divya Joshi](https://www.linkedin.com/in/divya-joshi-phd-candidate/)
+- [Noah Rahman](https://www.linkedin.com/in/noah-rahman-01504257/)
 - [Alex Sutherland]()
 - [Kristina Zvolanek](https://www.linkedin.com/in/kristina-zvolanek/)
 
