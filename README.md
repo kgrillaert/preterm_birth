@@ -32,7 +32,7 @@ Program](https://allofus.nih.gov/) controlled tier of de-identified medical data
 
 **Demographics model:** The Demographics model was trained on a dataset of 13690 births between the years 2009 and 2022. Most demographic information for each individual was available only as summary statistics based on their zip code. Race and ethnicity were available on the individual level. We used a Support Vector Classifier with class weights to prioritize prediction of preterm birth.
 
-**Lifestyle model:** The Lifestyle model was trained on a dataset of 8771 births between the years 2011 and 2022. We used a logistic regression with class weights to prioritize prediction of preterm birth.
+**Lifestyle model:** The Lifestyle model was trained on a dataset of 8771 births between the years 2011 and 2022. Features explored included drinking, smoking, drug use, body mass index, diabetes, and mental health. We used a logistic regression with class weights to prioritize prediction of preterm birth.
 
 For both models, we used the package [Fairness AI 360](https://aif360.res.ibm.com/) to ensure that our model predictions performed equally well
 across protected classes (race and ethnicity).
