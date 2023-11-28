@@ -1,8 +1,0 @@
-.. _datasource: 
-
-
-
-Data Source
-===========
-
-
