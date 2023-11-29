@@ -14,13 +14,14 @@
 
 ### ***“The world is facing a silent emergency. . . of preterm births.” - UNICEF[<sup>1</sup>](https://www.who.int/publications/i/item/9789240073890)***
 
-Premature infants are at risk for many negative, long-term health issues.[<sup>2</sup>](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(08)60074-4/fulltext) The preterm birth
-rate in the United States is approximately 10% overall, with highest rates occurring among Black women
-(14.6%), and lowest rates occurring among White (9.4%) and Hispanic women (10.1%).[<sup>3</sup>](https://www.cdc.gov/reproductivehealth/maternalinfanthealth/pretermbirth.htm) These rates have
-recently declined for White women but remained unchanged for other groups.[<sup>4</sup>](https://pubmed.ncbi.nlm.nih.gov/35072604/) Under-representation in
-healthcare research contributes to racial and ethnic health disparities.[<sup>5</sup>](https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/1471-2288-14-42) Therefore, by using a representative 
-dataset and non-invasive metrics, and ensuring our model’s equitable performance across diverse
-racial and ethnic groups, we aim to contribute to a healthier start for all children.
+Preterm birth is a primary cause of infant mortality and morbidity in the United States, affecting approximately 1 in 10 births.1 This rate is notably higher among Black women (14.6%), compared to White (9.4%) and Hispanic women (10.1%).[<sup>3</sup>](https://www.cdc.gov/reproductivehealth/maternalinfanthealth/pretermbirth.htm) These rates have
+recently declined for White women but remained unchanged for other groups.[<sup>4</sup>](https://pubmed.ncbi.nlm.nih.gov/35072604/)
+
+Despite its prevalence, predicting preterm birth remains challenging due to its multifaceted etiology rooted in environmental, biological, genetic, and behavioral interactions.3 Our project harnesses machine learning techniques to predict preterm birth using electronic health records. This data intersects with social determinants of health, reflecting some of the interactions contributing to preterm birth.4 Recognizing that under-representation in healthcare research perpetuates racial and ethnic health disparities, we take care to use diverse data to ensure equitable model performance across underrepresented populations.5
+
+# Project Stakeholders:
+Pregnant individuals, prospective parents, medical professionals involved with maternal care and births, hospital systems, insurance companies
+
 
 We constructed two models to predict preterm birth, one with demographic features and
 one with lifestyle features. Our data source was the National Institute of Health’s [_All of Us_ Research
