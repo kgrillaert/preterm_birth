@@ -42,26 +42,27 @@ The data used to train these models was accessed from the [_All of Us_ Research 
 
 # Interacting with this Code (in progress)
 
-##Dependencies
+### Dependencies
 Running the code requires the following Python packages: 
 ```
 scikit-learn, pandas, numpy, matplotlib, aif360
 ```
+### Jupyter notebooks are organized into different folders:
 
-##Data Cleaning
+#### Data Cleaning
 
-`01.Data_Cleaning/`
-  `Data_Cleaning_Demographics.ipynb` -
-  `Data_Cleaning_Lifestyle.ipynb` -
+- ` 01.Data_Cleaning/`
+  -  `Data_Cleaning_Demographics.ipynb`:
+  -  `Data_Cleaning_Lifestyle.ipynb`:
  
-##Exploratory Data Analysis
+#### Exploratory Data Analysis
 
-`02.Exploratory_Data_Analysis/`
-  `EDA_Demographics.ipynb` -
-  `EDA_Lifestyle.ipynb` -
+- `02.Exploratory_Data_Analysis/`
+  - `EDA_Demographics.ipynb`:
+  - `EDA_Lifestyle.ipynb`:
 
-##Applying the Models
+#### Applying the Models
 
-`03.Models/`
-  `Preterm_Birth_Demographics_Models.ipynb` -
-  `Preterm_Birth_Lifestyle_Models.ipynb` -
+- `03.Models/`
+  - `Preterm_Birth_Demographics_Models.ipynb`:
+  - `Preterm_Birth_Lifestyle_Models.ipynb`:
