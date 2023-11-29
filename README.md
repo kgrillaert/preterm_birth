@@ -35,7 +35,7 @@ Program](https://allofus.nih.gov/) controlled tier of de-identified medical data
 
 ***Lifestyle model:*** The Lifestyle model was trained on a dataset of 8771 births between the years 2011 and 2022. Features explored included drinking, smoking, drug use, body mass index, diabetes, and mental health. We used a logistic regression with class weights to prioritize prediction of preterm birth.
 
-For both models, we used the package [Fairness AI 360](https://aif360.res.ibm.com/) to ensure that our model predictions performed equally well
+For both models, we used the package [AI Fairness 360](https://aif360.res.ibm.com/) to ensure that our model predictions performed equally well
 across protected classes (race and ethnicity).
 
 # Data Access
