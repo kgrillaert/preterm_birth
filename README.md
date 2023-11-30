@@ -77,6 +77,17 @@ We prioritized minimizing costly false negatives, accepting the possibility of i
 |PR-AUC | 0.172 | 0.192 |
 |Equalized Odds | 0.0| |
 
+| Racial/Ethnic Group (privileged group: White) | ‘Ground Truth’ Entire Dataset |Test Predictions |
+|---|---|---|
+|Black or African American |-0.081 | -0.103 | 
+| Asian|-0.007 | -0.053|
+|Middle Eastern or North African | 0.042 |0.107  |
+| Native Hawaiian or Other Pacific Islander |-0.026 |-0.226|
+|More than one |-0.057 |-0.026| 
+|None of these |-0.049 |-0.179 |
+|No answer |-0.018 |-0.032 |
+
+
 | Health and Lifestyle Model | Final Log | Baseline|
 |---|---|---|
 | Recall | 0.473 | 0.137|
