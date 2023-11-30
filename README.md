@@ -80,27 +80,13 @@ We prioritized minimizing costly false negatives, accepting the possibility of i
 
  |Racial/Ethnic Group (privileged group: White) | ‘Ground Truth’ Entire Dataset |Test Predictions |
 |---|---|---|
-|Black or African American
-|-0.071
-|-0.065
-|Asian
-|0.003
-|0.000
-|Middle Eastern or North African
-|0.063
-|0.021|
-|Native Hawaiian or Other Pacific Islander
-|0.003
-|-0.042|
-|More than one
-|-0.047
-|-0.073|
-|None of these
-|-0.004
-|0.041
-|No answer
-|-0.006
-|-0.007
+|Black or African American|-0.071|-0.065|
+|Asian|0.003|0.000|
+|Middle Eastern or North African |0.063 |0.021|
+|Native Hawaiian or Other Pacific Islander|0.003 |-0.042|
+|More than one|-0.047|-0.073|
+|None of these|-0.004|0.041|
+|No answer|-0.006|-0.007|
 
 
 ## Health and Lifestyle Model
