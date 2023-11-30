@@ -14,7 +14,7 @@
 
 ### ***“The world is facing a silent emergency. . . of preterm births.” - UNICEF[<sup>1</sup>](https://www.who.int/publications/i/item/9789240073890)***
 
-Preterm birth is a primary cause of infant mortality and morbidity in the United States, affecting approximately 1 in 10 births.[<sup>1</sup>](https://pubmed.ncbi.nlm.nih.gov/36170979/) This rate is notably higher among Black women (14.6%), compared to White (9.4%) and Hispanic women (10.1%).[<sup>2</sup>](https://www.cdc.gov/reproductivehealth/maternalinfanthealth/pretermbirth.htm) These rates have recently declined for White women but remained unchanged for other groups.[<sup>3</sup>](https://pubmed.ncbi.nlm.nih.gov/35072604/) Despite its prevalence, predicting preterm birth remains challenging due to its multifaceted etiology rooted in environmental, biological, genetic, and behavioral interactions.[<sup>4</sup>](https://pubmed.ncbi.nlm.nih.gov/28941962) Our project harnesses machine learning techniques to predict preterm birth using electronic health records. This data intersects with social determinants of health, reflecting some of the interactions contributing to preterm birth.[<sup>5</sup>](https://pubmed.ncbi.nlm.nih.gov/19000029/) Recognizing that under-representation in healthcare research perpetuates racial and ethnic health disparities, we take care to use diverse data to ensure equitable model performance across underrepresented populations.[<sup>6</sup>](https://ses.library.usyd.edu.au/handle/2123/30841)
+Preterm birth is a primary cause of infant mortality and morbidity in the United States, affecting approximately 1 in 10 births.[<sup>2</sup>](https://pubmed.ncbi.nlm.nih.gov/36170979/) This rate is notably higher among Black women (14.6%), compared to White (9.4%) and Hispanic women (10.1%).[<sup>3</sup>](https://www.cdc.gov/reproductivehealth/maternalinfanthealth/pretermbirth.htm) These rates have recently declined for White women but remained unchanged for other groups.[<sup>4</sup>](https://pubmed.ncbi.nlm.nih.gov/35072604/) Despite its prevalence, predicting preterm birth remains challenging due to its multifaceted etiology rooted in environmental, biological, genetic, and behavioral interactions.[<sup>5</sup>](https://pubmed.ncbi.nlm.nih.gov/28941962) Our project harnesses machine learning techniques to predict preterm birth using electronic health records. This data intersects with social determinants of health, reflecting some of the interactions contributing to preterm birth.[<sup>6</sup>](https://pubmed.ncbi.nlm.nih.gov/19000029/) Recognizing that under-representation in healthcare research perpetuates racial and ethnic health disparities, we take care to use diverse data to ensure equitable model performance across underrepresented populations.[<sup>7</sup>](https://ses.library.usyd.edu.au/handle/2123/30841)
 
 # Project Stakeholders:
 Pregnant individuals, prospective parents, medical professionals involved with maternal care and births, hospital systems, insurance companies
@@ -31,16 +31,6 @@ We constructed two models to predict preterm birth, one with demographic feature
 
 For both models, we used the package [AI Fairness 360](https://aif360.res.ibm.com/) to ensure that our model predictions performed equally well
 across protected classes (race and ethnicity).
-
-# Key Performance Indicators (KPIs): 
-We prioritized minimizing costly false negatives, accepting the possibility of increased false positives.
-
-Demographic Model | Baseline Health and Lifestyle Model | Baseline
-Recall 0.413 | 0.145 Recall 0.473 | 0.137
-F1 0.242 | 0.137 F1 0.247 | 0.136
-PR-AUC 0.172 | 0.192 PR-AUC 0.197 | 0.196
-SPD * SPD *
-Equalized Odds 0.0 Equalized Odds 0.0
 
 # Data Access
 The data used to train these models was accessed from the [_All of Us_ Research Hub](https://www.researchallofus.org/). You must [register for the Researcher Workbench](https://www.researchallofus.org/register/) to access the data. We specifically used individual-level data from the [Controlled Access Tier](https://www.researchallofus.org/data-tools/data-access/), which requires the completion of additional training. To facilitate testing without access to this protected health data, we have also provided a synthetic data frame.
@@ -71,3 +61,38 @@ scikit-learn, pandas, numpy, matplotlib, aif360
 - `03.Models/`
   - `Preterm_Birth_Demographics_Models.ipynb`:
   - `Preterm_Birth_Lifestyle_Models.ipynb`:
+
+# Key Performance Indicators (KPIs): 
+We prioritized minimizing costly false negatives, accepting the possibility of increased false positives.
+
+Demographic Model | Baseline Health and Lifestyle Model | Baseline
+Recall 0.413 | 0.145 Recall 0.473 | 0.137
+F1 0.242 | 0.137 F1 0.247 | 0.136
+PR-AUC 0.172 | 0.192 PR-AUC 0.197 | 0.196
+SPD * SPD *
+Equalized Odds 0.0 Equalized Odds 0.0
+
+# Conclusion and Future Work: 
+Our models performed only as well as the baseline model, highlighting the challenges of predicting preterm birth with only electronic health records. Predictive models may need to incorporate features from more than one domain, including environmental, behavioral, biological, and genetic factors.[<sup>6</sup>](https://pubmed.ncbi.nlm.nih.gov/19000029) Future work should consider the collection of thorough, individual-level data, observed during the pregnancy, in order to provide a high-quality data source for machine learning predictions.
+
+# Acknowledgements
+Thank you to Evelyn Huszar for her enthusiastic mentorship during this project. Our gratitude also to
+Roman Holowinsky, Matt Osborne, Alec Clott, and The Erdős Institute for their support during this
+boot camp. Finally, thank you to the NIH and the All of Us program for collecting, anonymizing, and
+allowing us to use the data for this project
+
+# References
+1. World Health Organization et al. Born too soon: decade of action on preterm birth. World Health Organization, 2023.
+   
+2. Csaba Siffel, Andrew K Hirst, Sujata P Sarda, Michael W Kuzniewicz, and De-Kun Li. The clinical burden of extremely preterm birth in a large medical records database in the united states: Mortality and survival associated with selected complications. Early Human Development, 171:105613, 2022.
+
+3. Preterm birth. https://www.cdc.gov/reproductivehealth/maternalinfanthealth/pretermbirth.htm, October 2023. Accessed: 2023-11-18.
+
+4. Martin JA, Osterman M. Exploring the Decline in the Singleton Preterm Birth Rate in the United States, 2019-2020. NCHS Data Brief, (430):1-8, 2021. 
+
+5. Tracy A Manuck. Racial and ethnic differences in preterm birth: a complex, multifactorial problem. In Seminars in perinatology, volume 41, pages 511–518. Elsevier, 2017.
+
+6. Dhelia M Williamson, Karon Abe, Christopher Bean, Cynthia Ferré, Zsakeba Henderson, and Eve Lackritz. Current research in preterm birth. Journal of Women’s Health, 17(10):1545–1549, 2008.
+
+7. CM Vajdic, A Kricker, M Giblin, J McKenzie, J Aitken, GG Giles, and BK Armstrong. Reaching the hard-to-reach: a systematic review of strategies for improving health and medical research with socially disadvantaged groups. 2013.
+
