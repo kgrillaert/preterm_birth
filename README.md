@@ -66,14 +66,14 @@ scikit-learn, pandas, numpy, matplotlib, aif360
 # Key Performance Indicators (KPIs)
 We prioritized minimizing costly false negatives, accepting the possibility of increased false positives.
 
-| Header 1 | Header 2 | Header 3 |
+| Demographic | Model | Baseline |
 |---|---|---|
-| Value 1 | Value 2 | Value 3 |
-| Row 1 | Row 2 | Row 3 | 
+| Recall | 0.413 | 0.145 |
+| F1 |0.242 | 0.137| 
+|PR-AUC 0.172 | 0.192
 
-
-**| Demographic Model  Baseline | Health and Lifestyle Model | Baseline|**
-|Recall 0.413 | 0.145 Recall 0.473 | 0.137|
+| Demographic Model  Baseline | Health and Lifestyle Model | Baseline|
+|Recall | 0.413 | 0.145 | Recall | 0.473 | 0.137|
 |F1 0.242 | 0.137 F1 0.247 | 0.136|
 |PR-AUC 0.172 | 0.192 PR-AUC 0.197 | 0.196|
 |SPD * SPD *|
