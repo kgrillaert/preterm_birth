@@ -2,7 +2,7 @@
 [Erdős Institute](https://www.erdosinstitute.org/) | [Data Science Boot Camp Fall 2023](https://www.erdosinstitute.org/programs/fall-2023/data-science-boot-camp)
 
 - View our [5-minute recorded presentation]()
-- Download our [Executive Summary]()
+- Download our [Executive Summary](https://github.com/kgrillaert/preterm_birth/blob/main/Preterm_Birth_Exec%20_Summary.pdf)
 
 ## Team Members:
 - [Katherine Grillaert](https://www.linkedin.com/in/kgrillaert/)
@@ -65,6 +65,11 @@ scikit-learn, pandas, numpy, matplotlib, aif360
 
 # Key Performance Indicators (KPIs)
 We prioritized minimizing costly false negatives, accepting the possibility of increased false positives.
+
+| Header 1 | Header 2 | Header 3 |
+|---|---|---|
+| Value 1 | Value 2 | Value 3 |
+| Row 1 | Row 2 | Row 3 | 
 
 
 **| Demographic Model  Baseline | Health and Lifestyle Model | Baseline|**
