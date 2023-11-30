@@ -67,6 +67,12 @@ so that the code can be run without the missing data
 - `03.All_of_Us_Models/`
   - `Preterm_Birth_Demographics_Models.ipynb`:
   - `Preterm_Birth_Lifestyle_Models.ipynb`:
+ 
+- `04.Demo_Models/`
+  - `Demo_Preterm_Birth_Demographics_Models.ipynb`:
+  - `Demo_Preterm_Birth_Lifestyle_Models.ipynb`:
+  - `rawdemodataframe.ipynb`:
+  - `rawlifestyledataframe.ipynb`:
 
 # Model Workflows
 ![](https://github.com/kgrillaert/preterm_birth/blob/main/demo_workflow.png)
