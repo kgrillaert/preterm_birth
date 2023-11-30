@@ -74,6 +74,7 @@ We prioritized minimizing costly false negatives, accepting the possibility of i
 |Equalized Odds | 0.0| |
 
 | Health and Lifestyle Model | Final Log | Baseline|
+|---|---|---|
 | Recall | 0.473 | 0.137|
 |F1 | 0.247 | 0.136|
 |PR-AUC | 0.197 | 0.196|
