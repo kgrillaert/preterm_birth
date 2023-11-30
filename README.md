@@ -64,8 +64,8 @@ scikit-learn, pandas, numpy, matplotlib, aif360
   - `Preterm_Birth_Lifestyle_Models.ipynb`:
 
 # Model Workflows
-![]https://github.com/kgrillaert/preterm_birth/blob/main/demo_workflow.png
-![]https://github.com/kgrillaert/preterm_birth/blob/main/lifestyle_workflow.png
+![](https://github.com/kgrillaert/preterm_birth/blob/main/demo_workflow.png)
+![](https://github.com/kgrillaert/preterm_birth/blob/main/lifestyle_workflow.png)
 
 # Key Performance Indicators (KPIs)
 We prioritized minimizing costly false negatives, accepting the possibility of increased false positives.
