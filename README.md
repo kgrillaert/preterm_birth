@@ -36,7 +36,7 @@ across protected classes (race and ethnicity).
 # Data Access
 The data used to train these models was accessed from the [_All of Us_ Research Hub](https://www.researchallofus.org/). You must [register for the Researcher Workbench](https://www.researchallofus.org/register/) to access the data. We specifically used individual-level data from the [Controlled Access Tier](https://www.researchallofus.org/data-tools/data-access/), which requires the completion of additional training. To facilitate testing without access to this protected health data, we have also provided a synthetic data frame.
 
-# Interacting with this Code (in progress)
+# Interacting with this Code
 
 ### Dependencies
 Running the code requires the following Python packages: 
@@ -59,7 +59,12 @@ scikit-learn, pandas, numpy, matplotlib, aif360
 
 #### Applying the Models
 
-- `03.Models/`
+Since the *All of Us* data is restricted, we provide two sets of models.
+In `03.All_of_Us_Models`, we provide the notebooks with the models we actualy ran using the *All of Us Data*
+In `04.Demo_Models`, we provide synthetic dataframes for both the demographic and lifestyle models,
+so that the code can be run without the missing data
+
+- `03.All_of_Us_Models/`
   - `Preterm_Birth_Demographics_Models.ipynb`:
   - `Preterm_Birth_Lifestyle_Models.ipynb`:
 
