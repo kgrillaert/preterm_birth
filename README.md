@@ -60,9 +60,11 @@ scikit-learn, pandas, numpy, matplotlib, aif360
 #### Applying the Models
 
 Since the *All of Us* data is restricted, we provide two sets of models.
-In `03.All_of_Us_Models`, we provide the notebooks with the models we actualy ran using the *All of Us Data*
+
+In `03.All_of_Us_Models`, we provide the notebooks with the models we actualy ran using the *All of Us Data*.
+
 In `04.Demo_Models`, we provide synthetic dataframes for both the demographic and lifestyle models,
-so that the code can be run without the missing data
+so that the code can be run without the missing data.
 
 - `03.All_of_Us_Models/`
   - `Preterm_Birth_Demographics_Models.ipynb`:
