@@ -70,12 +70,46 @@ scikit-learn, pandas, numpy, matplotlib, aif360
 # Key Performance Indicators (KPIs)
 We prioritized minimizing costly false negatives, accepting the possibility of increased false positives.
 
+## Demographic Model
 | Demographic Model | Final SVC | Baseline |
 |---|---|---|
 | Recall | 0.413 | 0.145 |
 | F1 |0.242 | 0.137| 
 |PR-AUC | 0.172 | 0.192 |
 |Equalized Odds | 0.0| |
+
+ |Racial/Ethnic Group (privileged group: White) | ‘Ground Truth’ Entire Dataset |Test Predictions |
+|---|---|---|
+|Black or African American
+|-0.071
+|-0.065
+|Asian
+|0.003
+|0.000
+|Middle Eastern or North African
+|0.063
+|0.021|
+|Native Hawaiian or Other Pacific Islander
+|0.003
+|-0.042|
+|More than one
+|-0.047
+|-0.073|
+|None of these
+|-0.004
+|0.041
+|No answer
+|-0.006
+|-0.007
+
+
+## Health and Lifestyle Model
+| Health and Lifestyle Model | Final Log | Baseline|
+|---|---|---|
+| Recall | 0.473 | 0.137|
+|F1 | 0.247 | 0.136|
+|PR-AUC | 0.197 | 0.196|
+|Equalized Odds| 0.0| |
 
 | Racial/Ethnic Group (privileged group: White) | ‘Ground Truth’ Entire Dataset |Test Predictions |
 |---|---|---|
@@ -87,13 +121,6 @@ We prioritized minimizing costly false negatives, accepting the possibility of i
 |None of these |-0.049 |-0.179 |
 |No answer |-0.018 |-0.032 |
 
-
-| Health and Lifestyle Model | Final Log | Baseline|
-|---|---|---|
-| Recall | 0.473 | 0.137|
-|F1 | 0.247 | 0.136|
-|PR-AUC | 0.197 | 0.196|
-|Equalized Odds| 0.0| |
 
 # Conclusion and Future Work
 Our models performed only as well as the baseline model, highlighting the challenges of predicting preterm birth with only electronic health records. Predictive models may need to incorporate features from more than one domain, including environmental, behavioral, biological, and genetic factors.[<sup>6</sup>](https://pubmed.ncbi.nlm.nih.gov/19000029) Future work should consider the collection of thorough, individual-level data, observed during the pregnancy, in order to provide a high-quality data source for machine learning predictions.
