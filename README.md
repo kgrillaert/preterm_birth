@@ -73,12 +73,11 @@ We prioritized minimizing costly false negatives, accepting the possibility of i
 |PR-AUC | 0.172 | 0.192 |
 |Equalized Odds | 0.0| |
 
-| Demographic Model  Baseline | Health and Lifestyle Model | Baseline|
-|Recall | 0.413 | 0.145 | Recall | 0.473 | 0.137|
-|F1 0.242 | 0.137 F1 0.247 | 0.136|
-|PR-AUC 0.172 | 0.192 PR-AUC 0.197 | 0.196|
-|SPD * SPD *|
-|Equalized Odds 0.0 Equalized Odds 0.0|
+| Health and Lifestyle Model | Final Log | Baseline|
+| Recall | 0.473 | 0.137|
+|F1 | 0.247 | 0.136|
+|PR-AUC | 0.197 | 0.196|
+|Equalized Odds| 0.0| |
 
 # Conclusion and Future Work
 Our models performed only as well as the baseline model, highlighting the challenges of predicting preterm birth with only electronic health records. Predictive models may need to incorporate features from more than one domain, including environmental, behavioral, biological, and genetic factors.[<sup>6</sup>](https://pubmed.ncbi.nlm.nih.gov/19000029) Future work should consider the collection of thorough, individual-level data, observed during the pregnancy, in order to provide a high-quality data source for machine learning predictions.
