@@ -78,7 +78,7 @@ We prioritized minimizing costly false negatives, accepting the possibility of i
 |PR-AUC | 0.172 | 0.192 |
 |Equalized Odds | 0.0| |
 
- |Racial/Ethnic Group (privileged group: White) | ‘Ground Truth’ Entire Dataset |Test Predictions |
+ |Racial/Ethnic Group (privileged group: White) | SPD ‘Ground Truth’ Entire Dataset |SPD Test Predictions |
 |---|---|---|
 |Black or African American|-0.071|-0.065|
 |Asian|0.003|0.000|
@@ -97,7 +97,7 @@ We prioritized minimizing costly false negatives, accepting the possibility of i
 |PR-AUC | 0.197 | 0.196|
 |Equalized Odds| 0.0| |
 
-| Racial/Ethnic Group (privileged group: White) | ‘Ground Truth’ Entire Dataset |Test Predictions |
+| Racial/Ethnic Group (privileged group: White) | SPD ‘Ground Truth’ Entire Dataset |SPD Test Predictions |
 |---|---|---|
 |Black or African American |-0.081 | -0.103 | 
 | Asian|-0.007 | -0.053|
