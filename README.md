@@ -16,10 +16,10 @@
 
 Preterm birth is a primary cause of infant mortality and morbidity in the United States, affecting approximately 1 in 10 births.[<sup>2</sup>](https://pubmed.ncbi.nlm.nih.gov/36170979/) This rate is notably higher among Black women (14.6%), compared to White (9.4%) and Hispanic women (10.1%).[<sup>3</sup>](https://www.cdc.gov/reproductivehealth/maternalinfanthealth/pretermbirth.htm) These rates have recently declined for White women but remained unchanged for other groups.[<sup>4</sup>](https://pubmed.ncbi.nlm.nih.gov/35072604/) Despite its prevalence, predicting preterm birth remains challenging due to its multifaceted etiology rooted in environmental, biological, genetic, and behavioral interactions.[<sup>5</sup>](https://pubmed.ncbi.nlm.nih.gov/28941962) Our project harnesses machine learning techniques to predict preterm birth using electronic health records. This data intersects with social determinants of health, reflecting some of the interactions contributing to preterm birth.[<sup>6</sup>](https://pubmed.ncbi.nlm.nih.gov/19000029/) Recognizing that under-representation in healthcare research perpetuates racial and ethnic health disparities, we take care to use diverse data to ensure equitable model performance across underrepresented populations.[<sup>7</sup>](https://ses.library.usyd.edu.au/handle/2123/30841)
 
-# Project Stakeholders:
+# Project Stakeholders
 Pregnant individuals, prospective parents, medical professionals involved with maternal care and births, hospital systems, insurance companies
 
-# Approach: 
+# Approach
 We constructed two models to predict preterm birth, one with demographic features and one with health and lifestyle features. Our data source was the National Institute of Health’s [_All of Us_ Research Program](https://allofus.nih.gov/) controlled tier of de-identified medical data. The Demographics model was trained on a dataset of 13690 births between the years 2009 and 2022. Most demographic information for each individual was available only as summary statistics based on their zip code. Race and ethnicity were available on the individual level. The Lifestyle model was trained on a dataset of 8771 births between the years 2011 and 2022. Features included drinking, smoking, drug use, body mass index, diabetes, and mental health.
 
 # Model Details
@@ -62,7 +62,7 @@ scikit-learn, pandas, numpy, matplotlib, aif360
   - `Preterm_Birth_Demographics_Models.ipynb`:
   - `Preterm_Birth_Lifestyle_Models.ipynb`:
 
-# Key Performance Indicators (KPIs): 
+# Key Performance Indicators (KPIs)
 We prioritized minimizing costly false negatives, accepting the possibility of increased false positives.
 
 Demographic Model | Baseline Health and Lifestyle Model | Baseline
@@ -72,7 +72,7 @@ PR-AUC 0.172 | 0.192 PR-AUC 0.197 | 0.196
 SPD * SPD *
 Equalized Odds 0.0 Equalized Odds 0.0
 
-# Conclusion and Future Work: 
+# Conclusion and Future Work
 Our models performed only as well as the baseline model, highlighting the challenges of predicting preterm birth with only electronic health records. Predictive models may need to incorporate features from more than one domain, including environmental, behavioral, biological, and genetic factors.[<sup>6</sup>](https://pubmed.ncbi.nlm.nih.gov/19000029) Future work should consider the collection of thorough, individual-level data, observed during the pregnancy, in order to provide a high-quality data source for machine learning predictions.
 
 # Acknowledgements
