@@ -68,7 +68,7 @@ scikit-learn, pandas, numpy, matplotlib, aif360
 ![](https://github.com/kgrillaert/preterm_birth/blob/main/lifestyle_workflow.png)
 
 # Key Performance Indicators (KPIs) and Results
-We prioritized minimizing costly false negatives, accepting the possibility of increased false positives. Therefore we chose Recall, F1, and Precision-Recall Area Under Curve as our key metrics. 
+We prioritized minimizing costly false negatives, accepting the possibility of increased false positives. Therefore we chose Recall, F1, and Precision-Recall Area Under Curve (PR-AUC) as our key metrics. As we are concerned that our model performs equally well regardless of race or ethnicity, we chose the fairness metrics Equalized Odds and Statistical Parity Difference (SPD).
 
 ## Demographic Model
 | Demographic Model | Final SVC | Baseline |
@@ -108,11 +108,11 @@ We prioritized minimizing costly false negatives, accepting the possibility of i
 |No answer |-0.018 |-0.032 |
 
 ## Results
-Our PR-AUC scores did not signitifcantly outperform our baseline (weighted coin flip) model. Although we could achieve higher recall scores, this was at the expense of prescision as the result was simple overprediction of the preterm birth class. 
+Our PR-AUC scores did not significantly outperform our baseline model, which was a weighted coin flip. Although higher recall scores were achievable, this came at the cost of precision due to a simple overprediction of the preterm birth class.
 
+Our Equalized Odds scores indicate that our model demonstrated similar accuracy in predicting either preterm or term birth across protected classes of race and ethnicity, where the false positive rate and false negative rate are equal. Our Statistical Parity Difference (SPD) scores measure the difference in the preterm birth prediction rate between the test class and the privileged class. In our context, we consider White as the privileged class. SPD ranges from -1 to 1, and a score of 0 would imply perfect parity in preterm birth predictions between the test and privileged classes.
 
-
-We calculated Statistical Parity Differece
+As expected, our model reflects but does not distort the disparities found in our dataset. An important caveat to these metrics: because our model is not reliably predicting preterm birth, the fairness metrics might not provide accurate insights or hold substantial value.
 
 # Conclusion and Future Work
 Our models performed only as well as the baseline model, highlighting the challenges of predicting preterm birth with only electronic health records. Predictive models may need to incorporate features from more than one domain, including environmental, behavioral, biological, and genetic factors.[<sup>6</sup>](https://pubmed.ncbi.nlm.nih.gov/19000029) Future work should consider the collection of thorough, individual-level data, observed during the pregnancy, in order to provide a high-quality data source for machine learning predictions.
