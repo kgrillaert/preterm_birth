@@ -2,6 +2,7 @@
 [Erdős Institute](https://www.erdosinstitute.org/) | [Data Science Boot Camp Fall 2023](https://www.erdosinstitute.org/programs/fall-2023/data-science-boot-camp)
 
 - View our [5-minute recorded presentation]()
+- Download our [Executive Summary]()
 
 ## Team Members:
 - [Katherine Grillaert](https://www.linkedin.com/in/kgrillaert/)
