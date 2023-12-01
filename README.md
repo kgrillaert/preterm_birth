@@ -1,8 +1,8 @@
 # The Silent Emergency - Predicting Preterm Birth
 [Erdős Institute](https://www.erdosinstitute.org/) | [Data Science Boot Camp Fall 2023](https://www.erdosinstitute.org/programs/fall-2023/data-science-boot-camp)
 
-- View our [5-minute recorded presentation]()
-- Download our [Executive Summary](https://github.com/kgrillaert/preterm_birth/blob/main/Preterm_Birth_Exec%20_Summary.pdf)
+- View our [5-minute recorded presentation](https://www.erdosinstitute.org/project-database/fall-2023/data-science-boot-camp/the-silent-emergency---predicting-preterm-birth)
+- Download our [Executive Summary](https://github.com/kgrillaert/preterm_birth/blob/main/06.Docs/Preterm_Birth_Exec%20_Summary.pdf)
 
 ## Team Members:
 - [Katherine Grillaert](https://www.linkedin.com/in/kgrillaert/)
@@ -77,8 +77,8 @@ so that the code can be run without the missing data.
   - `rawlifestyledataframe.ipynb`:
 
 # Model Workflows
-![](https://github.com/kgrillaert/preterm_birth/blob/main/demo_workflow.png)
-![](https://github.com/kgrillaert/preterm_birth/blob/main/lifestyle_workflow.png)
+![](https://github.com/kgrillaert/preterm_birth/blob/main/06.Docs/demo_workflow.png)
+![](https://github.com/kgrillaert/preterm_birth/blob/main/06.Docs/lifestyle_workflow.png)
 
 # Key Performance Indicators (KPIs) and Results
 We prioritized minimizing costly false negatives, accepting the possibility of increased false positives. Therefore we chose Recall, F1, and Precision-Recall Area Under Curve (PR-AUC) as our key metrics. As we are concerned that our model performs equally well regardless of race or ethnicity, we chose the fairness metrics Equalized Odds and Statistical Parity Difference (SPD).
