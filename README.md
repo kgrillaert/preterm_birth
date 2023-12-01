@@ -47,34 +47,38 @@ scikit-learn, pandas, numpy, matplotlib, aif360
 
 #### Data Cleaning
 
+In `01.Data_Cleaning` we provide notebooks that extract relevant demographic or lifestyle data from *All of Us* and combine them into a single data frame.
+
 - ` 01.Data_Cleaning/`
-  -  `Data_Cleaning_Demographics.ipynb`:
-  -  `Data_Cleaning_Lifestyle.ipynb`:
+  -  `Data_Cleaning_Demographics.ipynb`
+  -  `Data_Cleaning_Lifestyle.ipynb`
  
 #### Exploratory Data Analysis
 
+In `02.Exploratory_Data_Analysis` we provide notebooks that explore initial relationships between features via plots and summary statistics. Note: We also provide PDFs summarizing EDA outputs, so these results can be viewed without *All of Us* access.
+
 - `02.Exploratory_Data_Analysis/`
-  - `EDA_Demographics.ipynb`:
-  - `EDA_Lifestyle.ipynb`:
+  - `EDA_Demographics.ipynb`
+  - `EDA_Lifestyle.ipynb`
 
 #### Applying the Models
 
 Since the *All of Us* data is restricted, we provide two sets of models.
 
-In `03.All_of_Us_Models`, we provide the notebooks with the models we actualy ran using the *All of Us Data*.
+In `03.All_of_Us_Models`, we provide the notebooks with the models we actually ran using the *All of Us Data*.
 
-In `04.Demo_Models`, we provide synthetic dataframes for both the demographic and lifestyle models,
+In `04.Demo_Models`, we provide synthetic data frames for both the demographic and lifestyle models,
 so that the code can be run without the missing data.
 
 - `03.All_of_Us_Models/`
-  - `Preterm_Birth_Demographics_Models.ipynb`:
-  - `Preterm_Birth_Lifestyle_Models.ipynb`:
+  - `Preterm_Birth_Demographics_Models.ipynb`
+  - `Preterm_Birth_Lifestyle_Models.ipynb`
  
 - `04.Demo_Models/`
-  - `Demo_Preterm_Birth_Demographics_Models.ipynb`:
-  - `Demo_Preterm_Birth_Lifestyle_Models.ipynb`:
-  - `rawdemodataframe.ipynb`:
-  - `rawlifestyledataframe.ipynb`:
+  - `Demo_Preterm_Birth_Demographics_Models.ipynb`
+  - `Demo_Preterm_Birth_Lifestyle_Models.ipynb`
+  - `rawdemodataframe.ipynb`
+  - `rawlifestyledataframe.ipynb`
 
 # Model Workflows
 ![](https://github.com/kgrillaert/preterm_birth/blob/main/06.Docs/demo_workflow.png)
