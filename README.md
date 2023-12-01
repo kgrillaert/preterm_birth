@@ -77,8 +77,8 @@ so that the code can be run without the missing data.
   - `rawlifestyledataframe.ipynb`:
 
 # Model Workflows
-![](https://github.com/kgrillaert/preterm_birth/06.Docs/demo_workflow.png)
-![](https://github.com/kgrillaert/preterm_birth/06.Docs/lifestyle_workflow.png)
+![](https://github.com/kgrillaert/preterm_birth/blob/main/06.Docs/demo_workflow.png)
+![](https://github.com/kgrillaert/preterm_birth/blob/main/06.Docs/lifestyle_workflow.png)
 
 # Key Performance Indicators (KPIs) and Results
 We prioritized minimizing costly false negatives, accepting the possibility of increased false positives. Therefore we chose Recall, F1, and Precision-Recall Area Under Curve (PR-AUC) as our key metrics. As we are concerned that our model performs equally well regardless of race or ethnicity, we chose the fairness metrics Equalized Odds and Statistical Parity Difference (SPD).
