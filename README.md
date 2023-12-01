@@ -135,19 +135,9 @@ As expected, our model reflects but does not distort the disparities found in ou
 Our models performed only as well as the baseline model, highlighting the challenges of predicting preterm birth with only electronic health records. Predictive models may need to incorporate features from more than one domain, including environmental, behavioral, biological, and genetic factors.[<sup>6</sup>](https://pubmed.ncbi.nlm.nih.gov/19000029) Future work should consider the collection of thorough, individual-level data, observed during the pregnancy, in order to provide a high-quality data source for machine learning predictions.
 
 # Acknowledgements
-Thank you to Evelyn Huszar for her enthusiastic mentorship during this project. Our gratitude also to
-Roman Holowinsky, Matt Osborne, Alec Clott, and The Erdős Institute for their support during this
-boot camp. Finally, thank you to the NIH and the All of Us program for collecting, anonymizing, and
-allowing us to use the data for this project.
+Thank you to Evelyn Huszar for her enthusiastic mentorship during this project. Our gratitude also to Roman Holowinsky, Matt Osborne, Alec Clott, and The Erdős Institute for their support during this boot camp. Finally, thank you to the NIH and the All of Us program for collecting, anonymizing, and allowing us to use the data for this project.
 
-The All of Us Research Program is supported by the National Institutes of Health, Office of the Director:
-Regional Medical Centers: 1 OT2 OD026549; 1 OT2 OD026554; 1 OT2 OD026557; 1 OT2 OD026556; 1 OT2
-OD026550; 1 OT2 OD 026552; 1 OT2 OD026553; 1 OT2 OD026548; 1 OT2 OD026551; 1 OT2 OD026555;
-IAA : AOD 16037; Federally Qualified Health Centers: HHSN 263201600085U; Data and Research Center: 5
-U2C OD023196; Biobank: 1 U24 OD023121; The Participant Center: U24 OD023176; Participant Technology
-Systems Center: 1 U24 OD023163; Communications and Engagement: 3 OT2 OD023205; 3 OT2 OD023206; and
-Community Partners: 1 OT2 OD025277; 3 OT2 OD025315; 1 OT2 OD025337; 1 OT2 OD025276. In addition, the
-All of Us Research Program would not be possible without the partnership of its participants.
+The All of Us Research Program is supported by the National Institutes of Health, Office of the Director: Regional Medical Centers: 1 OT2 OD026549; 1 OT2 OD026554; 1 OT2 OD026557; 1 OT2 OD026556; 1 OT2 OD026550; 1 OT2 OD 026552; 1 OT2 OD026553; 1 OT2 OD026548; 1 OT2 OD026551; 1 OT2 OD026555; IAA : AOD 16037; Federally Qualified Health Centers: HHSN 263201600085U; Data and Research Center: 5 U2C OD023196; Biobank: 1 U24 OD023121; The Participant Center: U24 OD023176; Participant Technology Systems Center: 1 U24 OD023163; Communications and Engagement: 3 OT2 OD023205; 3 OT2 OD023206; and Community Partners: 1 OT2 OD025277; 3 OT2 OD025315; 1 OT2 OD025337; 1 OT2 OD025276. In addition, the All of Us Research Program would not be possible without the partnership of its participants.
 
 # References
 1. World Health Organization et al. Born too soon: decade of action on preterm birth. World Health Organization, 2023.
