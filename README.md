@@ -1,7 +1,7 @@
 # The Silent Emergency - Predicting Preterm Birth
 [Erdős Institute](https://www.erdosinstitute.org/) | [Data Science Boot Camp Fall 2023](https://www.erdosinstitute.org/programs/fall-2023/data-science-boot-camp)
 
-- View our [5-minute recorded presentation]()
+- View our [5-minute recorded presentation](https://youtu.be/uEjVTUwpBaI)
 - Download our [Executive Summary](https://github.com/kgrillaert/preterm_birth/blob/main/Preterm_Birth_Exec%20_Summary.pdf)
 
 ## Team Members:
