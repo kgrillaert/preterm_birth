@@ -2,7 +2,7 @@
 [Erdős Institute](https://www.erdosinstitute.org/) | [Data Science Boot Camp Fall 2023](https://www.erdosinstitute.org/programs/fall-2023/data-science-boot-camp)
 
 - View our [5-minute recorded presentation](https://www.erdosinstitute.org/project-database/fall-2023/data-science-boot-camp/the-silent-emergency---predicting-preterm-birth)
-- Download our [Executive Summary](https://github.com/kgrillaert/preterm_birth/blob/main/06.Preterm_Birth_Exec%20_Summary.pdf)
+- Download our [Executive Summary](https://github.com/kgrillaert/preterm_birth/blob/main/06.Docs/Preterm_Birth_Exec%20_Summary.pdf)
 
 ## Team Members:
 - [Katherine Grillaert](https://www.linkedin.com/in/kgrillaert/)
